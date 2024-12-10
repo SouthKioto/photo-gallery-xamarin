@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.AddPhotoPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGreen"
+                     Padding="20">
+            
+            <Entry x:Name="entry_title" 
+                   Placeholder="Title"
+                   />
+
+            <Entry x:Name="entry_source"
+                   Placeholder="Photo Source"
+                   />
+
+            <Button Text="Add Photo"
+                    Clicked="AddPhotoToDatabase"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
